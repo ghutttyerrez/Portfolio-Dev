@@ -7,5 +7,78 @@
   
 }
 
+#servicos {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
 
+  grid-template-areas: 
+    'header header'
+    'aside aside';
+  
+  background-color: var(--gray-100);
+
+  .header-2 {
+    display: grid;
+    grid-area: header;
+    margin: 88px 120px 56px 120px;
+
+    h3 {
+      color: var(--red);
+      font: var(--subtitle);
+      gap: 8px;
+    }
+
+    h2 {
+      color: var(--gray-600);
+    font: var(--title-md);
+  }
+
+  }
+}
+
+.servicos-aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 888px;
+  height: 155px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+
+  .servicos-card {
+    display: grid;
+    width: 280px;
+    height: 155px;
+    border: 1px solid var(--gray-300);
+    border-radius: 8px;
+    margin: 0 auto;
+
+    img {
+      justify-self: start;
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 20px 212px 20px 20px;
+    }
+
+    div {
+      margin: 10px 12px 0 12px;
+      color: var(--gray-600);
+      font: var(--title-sm);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p {
+      color: var(--gray-500);
+      font: var(--text-sm);
+      margin: 0 12px 20px 12px;
+      text-align: start;;
+    }
+  }
+  
+}
 
