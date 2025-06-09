@@ -43,7 +43,6 @@ footer {
   height: 320px;
   justify-self: center;
   
-  
 
   .social-media-card {
     width: 400px;
@@ -52,15 +51,8 @@ footer {
     border-radius: 8px;
     margin: 0 auto;
     
+   
 
-    img {
-          align-self: center;
-      margin: 20px 12px 20px 20px;
-      width: 28px;
-      height: 28px;
- 
-    }
-    
     a {
       text-decoration: none;
       display: flex;
@@ -83,10 +75,70 @@ footer {
       margin: 0;
     }
 
+    .logo-linkedin {
+      display: inline;
+      width: 28px;
+      height: 28px;
+      background-image: url('../assets/icons/linkedin-logo.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    };
+
+    .logo-linkedin:hover {
+      background-image: url('../assets/icons/linkedin-logo-hover.svg');
+    };
+
+    .logo-instagram {
+      display: inline;
+      width: 28px;
+      height: 28px;
+      background-image: url('../assets/icons/instagram-logo.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    };
+
+    .logo-instagram:hover {
+      background-image: url('../assets/icons/instagram-logo-hover.svg');
+    };
+
+    .logo-github {
+      display: inline;
+      width: 28px;
+      height: 28px;
+      background-image: url('../assets/icons/github-logo.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    };
+    .logo-github:hover {
+      background-image: url('../assets/icons/github-logo-hover.svg');
+    };
+
+    .logo-email {
+      display: inline;
+      width: 28px;
+      height: 28px;
+      background-image: url('../assets/icons/envelope.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    };
+    .logo-email:hover {
+      background-image: url('../assets/icons/envelope-hover.svg');
+    };
+
     .arrow-icon {
+      display: inline-block;
       width: 20px;
       height: 20px;
-    }
+      background-image: url('../assets/icons/arrow-up-right.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: background-image 0.3s ease;
+      margin-left: 8px;
+}
+
+    .arrow-icon:hover {
+      background-image: url('../assets/icons/arrow-up-right-hover.svg');
+    };
 
     span {
       color: var(--gray-600);

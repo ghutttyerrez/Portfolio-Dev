@@ -40,6 +40,9 @@
   background-color: var(--gray-300);
   border-radius: 8px;
 
+  &:hover {
+    border: 1px solid var(--gray-600);
+  }
 
   img {
   justify-self: center;
